@@ -15,6 +15,7 @@
 		CCEEE58A19E593CF0017B5EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCEEE58919E593CF0017B5EC /* Images.xcassets */; };
 		CCEEE58D19E593CF0017B5EC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCEEE58B19E593CF0017B5EC /* LaunchScreen.xib */; };
 		CCEEE59919E593CF0017B5EC /* dieHardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEEE59819E593CF0017B5EC /* dieHardTests.m */; };
+		CCEEE5A419E596520017B5EC /* Die.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEEE5A319E596520017B5EC /* Die.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		CCEEE59219E593CF0017B5EC /* dieHardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dieHardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCEEE59719E593CF0017B5EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCEEE59819E593CF0017B5EC /* dieHardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dieHardTests.m; sourceTree = "<group>"; };
+		CCEEE5A219E596520017B5EC /* Die.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Die.h; sourceTree = "<group>"; };
+		CCEEE5A319E596520017B5EC /* Die.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Die.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 				CCEEE57E19E593CF0017B5EC /* AppDelegate.m */,
 				CCEEE58319E593CF0017B5EC /* ViewController.h */,
 				CCEEE58419E593CF0017B5EC /* ViewController.m */,
+				CCEEE5A219E596520017B5EC /* Die.h */,
+				CCEEE5A319E596520017B5EC /* Die.m */,
 				CCEEE58619E593CF0017B5EC /* Main.storyboard */,
 				CCEEE58919E593CF0017B5EC /* Images.xcassets */,
 				CCEEE58B19E593CF0017B5EC /* LaunchScreen.xib */,
@@ -226,6 +231,7 @@
 				CCEEE58219E593CF0017B5EC /* dieHard.xcdatamodeld in Sources */,
 				CCEEE58519E593CF0017B5EC /* ViewController.m in Sources */,
 				CCEEE57C19E593CF0017B5EC /* main.m in Sources */,
+				CCEEE5A419E596520017B5EC /* Die.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

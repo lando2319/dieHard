@@ -8,7 +8,9 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
+
+@interface ViewController ()<DieDelegate>
+@property (weak, nonatomic) IBOutlet UILabel *dieLabel;
 
 @end
 
@@ -16,12 +18,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.die = [[Die alloc] init];
+    self.die.delegate = self;
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)onRollButtonPressed:(id)sender {
+    [self.die roll];
+}
+
+- (void)dieRolledWithValue:(int)value {
+    self.dieLabel.text = @(value).description;
+    NSLog(@"go time");
+}
+
+- (void)dieFellOffTheTable{
+    
 }
 
 @end
